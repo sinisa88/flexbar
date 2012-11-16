@@ -1,0 +1,13 @@
+Source: flexbar2.22.0
+Section: science
+Priority: optional
+Build-Depends: cmake (>= 2.8.0), debhelper (>= 7), libtbb-dev (>= 3.0+r035-1)
+Maintainer: The Genome Institute <gmt@genome.wustl.edu>
+Uploaders: Eddie Belter <ebelter@genome.wustl.edu>
+Homepage: http://sourceforge.net/projects/theflexibleadap/
+
+Package: flexbar2.22.0
+Architecture: amd64
+Depends: libtbb2 (>= 3.0+r035-1)
+Provides: flexbar
+Description: Flexbar - flexible barcode detection and adapter removal, former name FAR, is a program to preprocess sequencing data. It demultiplexes barcoded runs and removes adapter sequences. Further, basic read trimming and filtering options are provided. Flexbar increases mapping rates and improves genome and transcriptome assemblies. It supports next-generation sequencing data in fasta/q and csfasta/q format from Illumina, Roche 454, and the SOLiD platform.
