@@ -1,4 +1,4 @@
-Source: flexbar2.22.0
+Source: flexbar229
 Section: science
 Priority: optional
 Build-Depends: cmake (>= 2.8.0), debhelper (>= 7), libtbb-dev (>= 3.0+r035-1)
@@ -6,7 +6,7 @@ Maintainer: The Genome Institute <gmt@genome.wustl.edu>
 Uploaders: Eddie Belter <ebelter@genome.wustl.edu>
 Homepage: http://sourceforge.net/projects/theflexibleadap/
 
-Package: flexbar2.22.0
+Package: flexbar229
 Architecture: amd64
 Depends: libtbb2 (>= 3.0+r035-1)
 Provides: flexbar

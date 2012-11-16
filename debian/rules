@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 PRG=flexbar
-VER=2.22.0
+VER=229
 PKG=$(PRG)$(VER)
 DEB_DIR=debian/$(PKG)
 BUILD_TMP=$(CURDIR)/debian/tmp-build/$(PKG)

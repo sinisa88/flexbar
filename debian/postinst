@@ -2,7 +2,7 @@
 set -e
 
 PKG="flexbar"
-VER="2.22.0"
+VER="229"
 PKG_DIR=/usr/lib/${PKG}${VER}
 
 if [ "$1" = "configure" ]; then
