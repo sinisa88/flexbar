@@ -10,6 +10,7 @@ PKG_LIB_DIR=/usr/lib/$(PKG)
 BIN_WRAPPER=\
 '\#!/bin/sh\n'\
 'export PATH=$(PKG_LIB_DIR)/bin:$$PATH\n'\
+'export LD_LIBRARY_PATH=/usr/lib:$$LD_LIBRARY_PATH\n'\
 "exec $${BASE_BIN}" '"$$@"'
 
 %:
