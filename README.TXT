@@ -1,6 +1,6 @@
 
 Flexbar - flexible barcode detection and adapter removal, version 2.21
-!
+
 
 Installation:
 =============
